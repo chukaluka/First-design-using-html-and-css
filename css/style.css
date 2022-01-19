@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit';
+}
+
+.index-wrapper {
+    background-color: hsl(216, 50%, 16%);
+    margin: 50px 30px 30px;
+    width: 310px;
+    height: 560px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.img-header {
+    width: 270px;
+    margin: 30px 20px 20px 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.vertical-center {
+    margin: 10px 18px;
+}
+
+.vertical-center h1 {
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.vertical-center h2 {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.text-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vertical-center div h3 {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.vertical-center div h4 {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+hr {
+    margin: 20px;
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+    border: none;
+}
+
+.img-avatar {
+    width: 25px;
+    margin: 5px 10px 0 5px;
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 100%);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.firstspan {
+    color: hsl(215, 51%, 70%);
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.secondspan {
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .index-wrapper {
+        margin: 30px auto;
+    }
+}
